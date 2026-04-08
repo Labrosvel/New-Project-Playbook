@@ -47,6 +47,8 @@
 6. rm -rf .git*
 7. git fetch origin branchname
 8. git fetch --prune *#Synchronize the local with the remote*
+9. git fetch --all --prune *#Synchronize all branches with the remote*
+10. git pull --ff-only *#Validate that current branch is synchronized with remote*
 
 ## Standard git
 - git add filename
