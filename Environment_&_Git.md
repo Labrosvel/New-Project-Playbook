@@ -108,6 +108,10 @@
 - git checkout branch2
 - git log branch1..branch2
 
+# Other
+export PS1="[\[\033[01;32m\]\u\[\033[00m\]: \[\033[01;34m\]\W\[\033[00m\]]\$ " #Shorten the prompt if the command prompt is very long
+
+
 
 
 
